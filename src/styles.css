@@ -1,1 +1,68 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;overflow-x: hidden;}
+
+.container {
+    width: 600px;
+    margin: 0px auto;
+}
+h4.text-heading {
+    text-align: center;
+    color: #1976d2;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 40px 0px !important;
+}
+.match-results table {
+    width: 100%;
+    text-align: center;
+}
+.mat-elevation-z8.match-results {
+    margin-bottom: 40px;
+}
+.match-results table a {
+    color:#1976d2 !important;
+}
+.mat-dialog-container {
+    width: 600px !important;
+    padding: 0px !important;
+}
+h2.table-header {
+    margin: 0px;
+    display: block;
+    background: #1976d2;
+    padding: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px !important;
+    font-weight: 500;
+}
+.table-data {
+    float: left;
+    width: 100%;
+}
+table.singleTable {
+    border-collapse: collapse;
+    /* max-width: 550px !important; */
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+    text-align: CENTER;
+  }
+  
+/* table.singleTable th,table.singleTable td {
+    border: 1px solid black;
+  } */
+table.singleTable,table.singleTable th,table.singleTable td {
+    border: 1px solid #000000;
+  }
+  td.scores{
+    color: #FF5522;
+    font-weight: 500;
+}
+tr.mat-header-row.ng-star-inserted th {
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+}
